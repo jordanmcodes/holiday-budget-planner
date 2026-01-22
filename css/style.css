@@ -4,7 +4,7 @@ body {
 
 p {
     font-family:Verdana;
-    font: size 20px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -13,5 +13,6 @@ h1{
 }
 
 button {
-    align-self: center;
+    display: block;
+    margin: 20px;
 }
