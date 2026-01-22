@@ -1,3 +1,5 @@
-function myFunction() {
-  document.getElementById("letsgetstarted").innerHTML = "Let's begin adding some expenses";
+document.getElementById("buttonstart").addEventListener("click", startBudget);
+
+function startBudget() {
+  document.getElementById("letsgetstarted").innerHTML = "Now you're ready, let's begin adding some expenses!";
 }
