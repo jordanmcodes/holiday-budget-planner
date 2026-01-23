@@ -1,7 +1,10 @@
+
+/* The background of the application */
 body {
     background-color: lightcyan;
 }
 
+/* The paragraphs all had consistent font family and size. */
 p {
     font-family:Verdana;
     font-size: 20px;
@@ -12,6 +15,7 @@ h1{
     text-align: center;
 }
 
+/* Moved the button to the middle of the page */
 .buttoncontainer{
     text-align: center;
 }
@@ -21,6 +25,7 @@ h1{
     padding-top: 10px;
 }
 
+/* Changed the size of the font for the button*/
 button{
     font-size: 20px;
 }
@@ -36,6 +41,7 @@ label {
 
 }
 
+/* Centered the table to ensure it was in line with the rest of the content */
 .budgettable {
     
     margin-left: auto;
