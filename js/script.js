@@ -1,4 +1,8 @@
+
+// When the button is pressed, the process begins. 
 document.getElementById("buttonstart").addEventListener("click", startBudget);
+
+
 
 function startBudget() {
 var budget = document.getElementById("holidaybudget").value;
