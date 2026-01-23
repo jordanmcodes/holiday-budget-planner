@@ -6,12 +6,19 @@ var budget = document.getElementById("holidaybudget").value;
 if (budget === ""){
   document.getElementById("prebudget").innerHTML = "You must enter your holiday budget first";
 return;
-
-
 }
  else {
-  document.getElementById("letsgetstarted").innerHTML = "Now you're ready, let's begin adding some expenses!";
-  document.getElementById("prebudget").innerHTML = 
-  "Here is your pre-holiday budget £" + budget;
+ var prices = document.getElementsByClassName("Price");
+ var totalprices = 0;
+
+for (let i = 0; i < prices.length; i++){
+ if (prices[i].value !== "") {
+  totalprices = totalprices + Number(prices[i].value);
+}
   }
+
+  var remaining = budget - totalprices
+  document.getElementById("prebudget").innerHTML = 
+  "Here is your remaining budget of £" + remaining;
+}
 }
