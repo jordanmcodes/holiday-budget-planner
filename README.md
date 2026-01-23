@@ -8,6 +8,9 @@
 - [Visuals/Styling](#visualsstyling)
 - [Automated and Manual Testing](#automated-and-manual-testing)
 - [Testing](#testing)
+- [Screenshots/user stories](#screenshotsuser-stories)
+- [Testing summary](#testing-summary)
+- [Development process](#development-process)
 
 
 ## What is the purpose of the application?
@@ -57,3 +60,28 @@ This application was manually tested, assessing the applications functions, acce
 |-----------|------------------|--------|
 | View app on mobile | The application will be visible on mobile| App is visible and text is clear even on mobile | 
 | Resize window | Layout remains intact even when window is shrunken | Table, button, and text is clear when window size altered | 
+
+## Screenshots/user stories
+![Landing page](assets/images/landing-page.png)
+The user story links to the understanding. When they first see the page, what are they to do? The design and styling clearly showcases a clear journey for the user to go on. The introduction paragraph makes it easy to understand what the application is about, along with the header. 
+
+![Error message](assets/images/error-message.png)
+As a user, they will always want to be told about an error, and how they can fix that error. For this application, fixing the error is a simple one. If the user clicks the button first, they will be met with the error message, instructing them to enter in their holiday budget.
+
+![Remaining budget](assets/images/remaining-budget.png)
+
+When people use a budget planner, they want to be able to see in clear writing what is going to be the biggest dent to their finances. In the cast of the image above, the hotel is going to be the biggest contributor to the remaining budget, which is £75 from an initial £1000 pre-holiday budget. 
+
+## Testing summary 
+
+The results of the testing above showcases that the application is working as intended with no errors. My useability testing showcased the application is easy to understand, with clear instructions where neccessary. 
+
+As for responsiveness, the application remains unaffected when the size of the window changes. The app remains centered, with the text big enough for the user to see. This application would work as intended on mobile. 
+
+## Development process 
+
+The development process for this application was as followed. It followed a basic pattern, with the HTML being the bulk of the first phases of the development process. The idea was to get the headings and opening paragraphs in place before moving onto the button. I didn't at this stage do any scripting for the button, only to ensure that there is a button in place.
+
+This was because I had to create a paragraph below, that would act as an action statement for the user. For example if they didn't input a number and they clicked the button, it would change to an error message. The javascript was applied to the button and table created, as this is where the numbers were hosted, also known as the prices. 
+
+The CSS styling aided in visibility,  readability, and user experience. Ensuring that all of the paragraphs had the same font, font-size, and more. 
