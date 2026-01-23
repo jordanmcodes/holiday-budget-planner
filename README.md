@@ -6,6 +6,8 @@
 - [User interaction](#user-interaction)
 - [Application setup](#application-setup)
 - [Visuals/Styling](#visualsstyling)
+- [Automated and Manual Testing](#automated-and-manual-testing)
+- [Testing](#testing)
 
 
 ## What is the purpose of the application?
@@ -26,3 +28,32 @@ The application is separated into three pages internally. Those being the HTML, 
 ## Visuals/Styling
 The page benefits from its simplicity, and that is reflected in the styling choices. Everything is centered towards the middle of the page, styled through classes. The buttons, for example, were created using divs so that they can have their own styling. As for the text itself, I ensured that it remained consistent throughout, with 20px for the size, and Verdana for the font. 
 
+## Automated and Manual Testing
+
+Automated testing is where programmers will use automated tools to test their code. This can often be for large scale projects, or for applications that include Javascript and or other languages, that will require multiple rounds of testing. Automated testing is used when the application requires human intereaction. For example, if we were to use my application, we could use an automated testing tool to test what happens when our expenses costs more than the budget we allocated at the top. To answer the question; "when would you do automated testing?": Automated testing is done during the development process and when the information may change. For example, the user will likely change their minds frequently when adjusting their budgets. 
+
+Manual testing is where the programmer will test each function one by one without the use of any software. The easiest example, using my application, is testing that the button works when I click it. Manual testing can be done at any stage of the development cycle, but many will leave it to the end with a complete checklist to test for accessbility, functionality, and more. 
+
+## Testing
+
+This application was manually tested, assessing the applications functions, accessbility, and responsiveness. 
+
+### Functional
+
+| Test name | Expected Outcome | Result | 
+|-----------|------------------|--------|
+| Button no entry | Press the button without entering any figures will result in error message | Error message appeared | 
+| Enter budget | Figure typed will showcase as remaining budget | After typing £1000, that figure showed as remaining budget | 
+| Enter expenses | The expenses will substract from the remaining budget. | £200 was subtracted from £1000 in the remaining budget | 
+
+### Useability 
+| Test name | Expected Outcome | Result | 
+|-----------|------------------|--------|
+| Read instructions | Paragraphs will be easy to read | Paragraphs are clear and visible to all users | 
+| Error message visibility | Error message will be readable | Error message is big and clear for user to read | 
+
+### Responsiveness 
+| Test name | Expected Outcome | Result | 
+|-----------|------------------|--------|
+| View app on mobile | The application will be visible on mobile| App is visible and text is clear even on mobile | 
+| Resize window | Layout remains intact even when window is shrunken | Table, button, and text is clear when window size altered | 
