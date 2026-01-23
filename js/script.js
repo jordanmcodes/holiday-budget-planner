@@ -4,13 +4,14 @@ function startBudget() {
 var budget = document.getElementById("holidaybudget").value; 
 
 if (budget === ""){
-  document.getElementById("prebudget").innerHTML = "You must enter your holidaay budget first";
+  document.getElementById("prebudget").innerHTML = "You must enter your holiday budget first";
 return;
 
-}
 
+}
+ else {
   document.getElementById("letsgetstarted").innerHTML = "Now you're ready, let's begin adding some expenses!";
   document.getElementById("prebudget").innerHTML = 
   "Here is your pre-holiday budget £" + budget;
   }
-
+}
