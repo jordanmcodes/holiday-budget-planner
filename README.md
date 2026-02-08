@@ -58,7 +58,7 @@ This application was manually tested, assessing the applications functions, acce
 ### Responsiveness 
 | Test name | Expected Outcome | Result | 
 |-----------|------------------|--------|
-| View app on mobile | The application will be visible on mobile| App is visible and text is clear even on mobile | 
+| View app on mobile | The application will be visible on mobile for the following formats:| App is visible and text is clear even on mobile | 
 | Resize window | Layout remains intact even when window is shrunken | Table, button, and text is clear when window size altered | 
 
 ## Screenshots/user stories
