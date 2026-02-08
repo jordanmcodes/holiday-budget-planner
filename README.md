@@ -45,9 +45,9 @@ This application was manually tested, assessing the applications functions, acce
 
 | Test name | Expected Outcome | Result | 
 |-----------|------------------|--------|
-| Button no entry | Press the button without entering any figures will result in error message | Error message appeared | 
-| Enter budget | Figure typed will showcase as remaining budget | After typing £1000, that figure showed as remaining budget | 
-| Enter expenses | The expenses will substract from the remaining budget. | £200 was subtracted from £1000 in the remaining budget | 
+| Pressing the button without inputting a number into the holiday budget.| Press the button without entering any figures will result in error message, stating "You must enter your holiday budget first" | Error message appeared with the exact message described in the expected outcome section. | 
+| Enter budget | When entering in £1000, the text will change to showcase that the remaining budget is in fact £1000. Entering in letters will not showcase that word in replacement of the figure. Only numeric values can be displayed. | After typing £1000, that figure showed as remaining budget | 
+| Enter expenses | The expenses will substract from the remaining budget. I will add "food" expense to the budget of £1000. Meaning once the button has been pressed, it will showcase £800 left. | £200 was subtracted from £1000 in the remaining budget | 
 
 ### Useability 
 | Test name | Expected Outcome | Result | 
