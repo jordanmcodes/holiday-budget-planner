@@ -52,14 +52,16 @@ This application was manually tested, assessing the applications functions, acce
 ### Useability 
 | Test name | Expected Outcome | Result | 
 |-----------|------------------|--------|
-| Read instructions | Paragraphs will be easy to read | Paragraphs are clear and visible to all users | 
-| Error message visibility | Error message will be readable | Error message is big and clear for user to read | 
+| Read instructions | Paragraphs will be easy to read without the need to zoom in.  | Paragraphs are clear and visible to all users | 
+| Error message visibility | Error message will be readable and will be clear enough to instruct the user on what to do next after encountering said error.| Error message is big and clear for user to read | 
 
 ### Responsiveness 
 | Test name | Expected Outcome | Result | 
 |-----------|------------------|--------|
-| View app on mobile | The application will be visible on mobile for the following formats:| App is visible and text is clear even on mobile | 
-| Resize window | Layout remains intact even when window is shrunken | Table, button, and text is clear when window size altered | 
+| View app on mobile | The application will be tested for visibility on the following formats: IphoneSE, Samsung Galaxy S8+, and Surface Pro 7.| App is visible and text is clear even on mobile | 
+| Resize window | Layout remains intact even when window is shrunken across multiple sizes using the lighthouse tool. | Table, button, and text is clear when window size altered across multiple sizes, going from 100%, down to 75%, and lastly, 50%. from the original lighthouse responsiveness testing page.| 
+
+![Lighthouse testing](assets/images/lighthouse-test.png)
 
 ## Screenshots/user stories
 ![Landing page](assets/images/landing-page.png)
