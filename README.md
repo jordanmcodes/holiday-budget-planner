@@ -14,12 +14,14 @@
 
 
 ## What is the purpose of the application?
-The purpose of this application is to help people with their basic travel budget needs. Going on holiday is an exciting time.
-But also, a stressful one if you don't come prepared. This is why the application is basic, simple to read, and will allow you to knuckle down to the basics of travel.
-For example, hotels, flights, food, and activities I have researched is the four basic components when budgeting for a trip.
 
-The application is easy to use and flows smoothly. You are addressed with the introduction sentence, followed by a sentence targetted at making the user feel comfortable.
-This is followed by the button that confirms your budget, and the table which allows user input for the four most important categories of travel budgeting.
+The purpose of this application is to help people with their travel planning needs. When it comes to travelling, many are unprepared for having multiple expenses to account for. For example, food, hotel tickets, and excursions are only a handful of expenses that come alongside an exciting holiday. The purpose of this application is to simplify the budgeting issues into one clean, simple, and easy-to-read application that will add up their various expenses and provide you with a remaining figure.
+
+Immediate feedback is essential for any simple application; users simply want to know how much they can fork out on their various expenses. For example, if you have £1000 to spend on a three-day trip to Scotland, you're going to need a budget to maximise the spending while on a tight budget. This application breaks down the four most important parts of a holiday budget. The food, the hotels, the flight tickets, and spending money/excursions.
+
+The instructions are clear. Before adding in your expenses, you are instructed to enter your holiday budget. If not, a large error message will appear, prompting you to enter your budget. This provides a streamlined user journey from discovery to entering the budget, to entering your expenses, to revealing the remaining budget.
+
+I have used a simple form and table layout for this application because this is for those who are looking to get into budgeting for a trip, instead of winging it. I have ensured the font is easy to read, with text size big enough for all users, which remains true even when the application window is decreased, and the visibility will remain. When users are finished using this application, they will have a basic understanding of the fundamentals of holiday budgeting and will be better prepared when planning their next trip.
 
 ## User interaction
 
