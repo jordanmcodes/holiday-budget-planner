@@ -12,12 +12,10 @@ function startBudget() {
     document.getElementById("prebudget").innerHTML =
       "You must enter your holiday budget first";
     return;
-  
   }
   else {
      var prices = document.getElementsByClassName("Price");
      var totalprices = 0;
-
     // These functions will calculate the total
     // for the expenses outlined in the table.
     for  (var i = 0; i < prices.length; i++) {
