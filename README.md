@@ -13,6 +13,15 @@
 - [Testing summary](#testing-summary)
 - [Development process](#development-process)
 
+### Source material
+
+All of my material has come from W3 schools. All HTML and CSS accredited to previous lectures on this courrse. Below are the links for inspiration for Javascript:
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+https://www.w3schools.com/js/js_htmldom_elements.asp
+https://www.w3schools.com/js/js_htmldom_collections.asp
+https://www.w3schools.com/js/js_numbers.asp
+
+
 
 ## What is the purpose of the application?
 
