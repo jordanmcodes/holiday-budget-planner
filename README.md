@@ -8,6 +8,7 @@
 - [Visuals/Styling](#visualsstyling)
 - [Automated and Manual Testing](#automated-and-manual-testing)
 - [Testing](#testing)
+- [HTML,CSS,and JSLint Validation](#html-validation)
 - [Screenshots/user stories](#screenshotsuser-stories)
 - [Testing summary](#testing-summary)
 - [Development process](#development-process)
@@ -63,6 +64,13 @@ This application was manually tested, assessing the applications functions, acce
 | View app on mobile | The application will be tested for visibility on the following formats: IphoneSE, Samsung Galaxy S8+, and Surface Pro 7.| App is visible and text is clear even on mobile | 
 | Resize window | Layout remains intact even when window is shrunken across multiple sizes using the lighthouse tool. | Table, button, and text is clear when window size altered across multiple sizes, going from 100%, down to 75%, and lastly, 50%. from the original lighthouse responsiveness testing page.| 
 
+### HTML Validation
+![HTML Validation](assets/images/html-validation-index.png)
+
+### CSS Validation
+![CSS Validation](assets/images/css-validation-style.png)
+
+### Lighthouse testing
 ![Lighthouse testing](assets/images/lighthouse-test.png)
 
 ## Screenshots/user stories
