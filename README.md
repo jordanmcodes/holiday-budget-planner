@@ -73,6 +73,10 @@ This application was manually tested, assessing the applications functions, acce
 ### Lighthouse testing
 ![Lighthouse testing](assets/images/lighthouse-test.png)
 
+### JSHint - Linter
+This application passes through JSHint without any major warnings or errors in the code. 
+![JSHint](assets/images/jshint.png)
+
 ## Screenshots/user stories
 ![Landing page](assets/images/landing-page.png)
 The user story links to the understanding. When they first see the page, what are they to do? The design and styling clearly showcases a clear journey for the user to go on. The introduction paragraph makes it easy to understand what the application is about, along with the header. 
