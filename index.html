@@ -8,27 +8,27 @@
 
 </head>
 <body>
-    
+   <!--Basic introductory text, clearly explaining what the application is about, and how it benefits the user-->
     <header>
         <h1> Jordan's Holiday Budget Planner </h1>
         <p> Hello and welcome to my holiday budget planner! Planning on going abroad this year? No problem.</p>
         <p>This simple form will help you plan your dream holiday, covering all expences and their categories.</p>
     </header>
-
+<!--Once the button has been pressed, the process will begin. If no figure has been entered, text will change to "You must enter your holiday budget first"-->
     <div class="buttoncontainer">
     <button id="buttonstart">Start adding expenses</button>
     </div>
 
         <p id="letsgetstarted"></p>
-
+<!-- Label which allows the users to enter in their numerical value for their holiday budget.-->
     <div class="HolidayBudget">
         <label for="holidaybudget"> Holiday Budget</label>
         <input type="number" id="holidaybudget" placeholder="Please enter your Holiday Budget">
     </div>
-
+<!-- Paragraph displaying the users pre-holiday budget.-->
     <p id="prebudget"> Your pre-holiday budget is: £0</p>
 
-
+<!-- Table which allows users to enter in their budget for the four primary expeneses of a holiday.-->
     <table class ="budgettable" id="expensestable">
         <tr>
             <th>Expense</th>
@@ -53,8 +53,9 @@
 
     </table>
 
-
-
+<!-- The source for my javascript to allow the application to function as intended.
+ when the button is pressed, the application will either display a fee, or an error message.
+ For the table, each figure will be added to the holiday budget.-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
