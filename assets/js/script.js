@@ -24,7 +24,7 @@ function startBudget() {
       }
     }
 
-    // That total will then be substracted from the pre-holiday budget. Source W3 schools.
+    // That total will then be subtracted from the pre-holiday budget. Source W3 schools.
     var remaining = budget - totalprices;
     document.getElementById("prebudget").innerHTML =
       "Here is your remaining budget of £" + remaining;

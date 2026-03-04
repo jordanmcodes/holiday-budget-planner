@@ -18,10 +18,13 @@
 All of my material has come from W3 schools. All HTML and CSS accredited to previous lectures on this courrse. Below are the links for inspiration for Javascript:
 https://www.w3schools.com/js/js_htmldom_eventlistener.asp
 https://www.w3schools.com/js/js_htmldom_elements.asp
-https://www.w3schools.com/js/js_htmldom_collections.asp
 https://www.w3schools.com/js/js_numbers.asp
 
+**Eventlistener**: This was used at the start of the Javascript page to **get** the holiday budget. When the button is pressed, the application will retrieve the users holiday budget. 
 
+**Elements**: Elements was used on the javascript page, if the budget was empty, the page was display an error message, instructing the user to enter in a figure. 
+
+**Numbers**: Numbers were used to aid the calculation of the holiday budget. Number was used in the **For** statement. 
 
 ## What is the purpose of the application?
 
